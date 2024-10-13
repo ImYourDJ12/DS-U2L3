@@ -1,0 +1,10 @@
+
+1. It should be updated in __check_win. This way it will check if someone won 
+before changing turns.
+2. I plan to approach this by having the user input a number between 1-9 
+that will represent a cell of the tic-tac-toe board.
+3. __check_win() should be called in place_token. 
+4. I would need a function that handles the continuous turn process and a 
+function for the computers move.
+5. I plan to use a for loop to go through the board and check if either player
+has three in a row.
